@@ -1,0 +1,318 @@
+        /* Color schemes */
+
+        @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+        :root {
+            --bg: linear-gradient(70deg, #232344, #33294b);
+            --fg: hsl(10, 25%, 97%);
+            --link: #db8fff;
+            --secondcolor: #db8fff;
+            --secondcolor_transparent: #dc8fff93;
+            --text_color: white;
+            --firstcolor: #232344;
+            --rainbow: linear-gradient(70deg, #FE18D3, #FEFF38, #4206F1);
+            --shadow: hsla(300, 35%, 65%, 30%);
+        }
+
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: rgb(133, 133, 133);
+            transition: 0.5s;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(155, 155, 155);
+            transition: 0.5s;
+        }
+
+        /* Main formatting */
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            background: var(--bg);
+            /* background: url('../images/background.png'); */
+            background-color: var(--bg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: var(--fg);
+            quotes: "« "" »""“""”";
+            font-size: 125%;
+            font-size-adjust: 0.49;
+            line-height: 1.5;
+        }
+
+        nav.navbar{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .navbar-dropdown {
+            background-color:rgb(17, 17, 17);
+        }
+
+        @media screen and (max-width: 1023px){
+
+        .navbar-menu{
+            background-color:rgb(31, 28, 46);
+            padding-left: 0px;
+            padding-right: 0px;
+            position: fixed;
+            left: -0%;
+            width: 100%;
+            top: 0rem;
+        }
+
+        .navbar-burger{
+            color: white;
+            position: fixed;
+            right: -0%;
+            z-index: 1000;
+        }
+    }
+
+        a.navbar-item, a.navbar-link{
+            color: white;
+        }
+
+        a.navbar-item:hover, a.navbar-link:hover{
+            color: rgb(117, 216, 255);
+            transition: .2s;
+            background-color:rgb(17, 17, 17);
+        }
+
+        .button.donate{
+            background-color: #f6c915;
+        }
+
+        html {
+            font-family: "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, Lato,
+              Helvetica, Arial, sans-serif;
+            height: 100%;
+          }
+      
+
+        h1 {
+            font-weight: 600;
+        }
+
+        strong{
+            color: white;
+        }
+        /* Links */
+
+        a.deco {
+            color: inherit;
+            position: relative;
+            text-decoration: none;
+            text-shadow: 1px 1px var(--bg);
+            z-index: 1;
+            border-bottom-style: solid;
+            border-color: var(--secondcolor)
+        }
+
+        a.deco::before {
+            background: var(--secondcolor);
+            border-radius: 5px;
+            content: "";
+            height: 0.4em;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            transform: rotateZ(-1deg);
+            transition: transform 0.2s;
+            z-index: -1;
+        }
+
+        a.deco:hover::before,
+        a.deco:focus::before {
+            transform: rotateZ(-2deg) scaleY(2) translateY(-0.2em);
+        }
+
+
+        .flag {
+            width: 1.5em;
+            border-radius: 4px;
+        }
+
+        svg text {
+            -ms-user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            user-select: none;
+        }
+
+
+
+        small {
+            font-size: 0.75em;
+            line-height: 2;
+            color: var(--text_color);
+        }
+
+
+        img.pp {
+            /* width: 200;
+      height: 200; */
+            border-radius: 50%;
+            border-radius: 50%;
+            border-color: #db8fff;
+            border-style:dashed;
+            width: 11em;
+            transition: .5s;
+            padding: 7px;
+            margin: 10px;
+        }
+
+        .flag {
+            width: 1.5em;
+            border-radius: 4px;
+        }
+
+        a.button{
+            width: 95%;
+            margin: 5px;
+        }
+
+        .title{
+            color: white;
+        }
+
+        .subtitle{
+            color: #db8fff;
+        }
+
+        .footer-site{
+            padding: 20px;
+            background-color: black;
+        }
+
+        .footer-site > small{
+            color: white !important;
+        }
+
+
+        div.websitefooter{
+            background: rgb(17, 17, 17);
+            padding: 10px;
+        }
+    .emoji-64{
+        width: 64px;
+        height: 64px;
+        position: relative;
+        
+    }
+
+    .emoji-48{
+        width: 48px;
+        height: 48px;
+        position: relative;
+        
+    }
+
+    .emoji-32{
+        width: 32px;
+        height: 32px;
+        position: relative;
+        
+    }
+
+    .emoji-24{
+        width: 24px;
+        height: 24px;
+        position: relative;
+        
+    }
+
+    .emoji-16{
+        width: 16px;
+        height: 16px;
+        position: relative;
+        
+    }
+
+    .emoji-bottom{
+        position: relative;
+        bottom: -5px;
+    }
+
+    .emoji-nav{
+        margin-left: 20px;
+    }
+
+    /* Box */
+
+    .box{
+        background-color: var(--firstcolor); 
+        padding: 20px; 
+        border-radius: 20px; 
+        border-color: var(--secondcolor); 
+        border-style: solid;
+      }
+  
+    /* Home */
+
+
+    a.arrow-home{
+        position: relative;
+        bottom: 40px;
+        transition: .5s;
+    }
+
+    a.arrow-home:hover{
+        position: relative;
+        bottom: 50px;
+        transition: .5s;
+    }
+
+    div.home{
+        position: relative;
+        bottom: 3.25rem;
+    }
+
+    div.social a{
+        padding: 5px;
+        color: white;
+        font-size: 25px;
+    }
+
+    div.social a:hover{
+        color: rgb(117, 216, 255);
+        transition: .2s;
+    }
+    
+    /* Contact */
+
+    .contact-hero{
+        background: rgb(27, 27, 27);
+    }
+
+    .contact-hero a{
+        color: rgb(191, 211, 255);
+        transition: .2s;
+    }
+
+    .contact-hero a:hover{
+        color: rgb(117, 216, 255);
+        transition: .2s;
+    }
