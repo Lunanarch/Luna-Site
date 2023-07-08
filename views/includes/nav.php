@@ -12,7 +12,7 @@
       <a class="navbar-item" href="">
       🏠&nbspAccueil
       </a>
-      <a class="navbar-item" href="blog">
+   <!--   <a class="navbar-item" href="blog">
       <img src="./assets/svg/mutant/objects/office_stationery/pencil.svg" alt="Crayon" class="emoji-24">&nbspBlog
       </a>
       <a class="navbar-item" href="projects">
@@ -26,7 +26,7 @@
       </a>
       <a class="navbar-item" href="about">
       <img src="./assets/svg/mutant/objects/office_stationery/page.svg" alt="Page" class="emoji-24">&nbspA propos
-      </a>
+      </a> -->
     </div>
 
     <div class="navbar-end">

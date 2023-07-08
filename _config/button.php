@@ -47,7 +47,7 @@ $btn_social_6_icon = "fab fa-soundcloud";
 $btn_social_6_color = "rgb(248, 104, 8)";
 
 $btn_social_7 = "Spotify";
-$btn_social_7_link = "https://open.spotify.com/artist/3NVFYCaCl2xpT1nDS4Xb8M?si=442975bc19d14170";
+$btn_social_7_link = "https://open.spotify.com/artist/3vz8Ehjxqo6vZuBdgN1Jrm?si=I8mtyXGTSxOD1Wmkj9hGBQ";
 $btn_social_7_icon = "fab fa-spotify";
 $btn_social_7_color = "rgb(0, 133, 33)";
 
