@@ -13,7 +13,7 @@
 #Modifications du texte des boutons sociaux ainsi que leur liens
 #et icônes (fontawesome)
 
-// Social 
+// Social
 
 $btn_social_1 = "Instagram";
 $btn_social_1_link = "https://instagram.com/lunanarch";
@@ -21,7 +21,7 @@ $btn_social_1_icon = "fab fa-instagram";
 $btn_social_1_color = "pink";
 
 $btn_social_2 = "Mastodon";
-$btn_social_2_link = "https://eldritch.cafe/@chasociale";
+$btn_social_2_link = "https://todon.eu/@chasociale";
 $btn_social_2_icon = "fab fa-mastodon";
 $btn_social_2_color = "rgb(23, 60, 131)";
 
@@ -31,7 +31,7 @@ $btn_social_3_icon = "fab fa-telegram";
 $btn_social_3_color = "rgb(2, 135, 187)";
 
 $btn_social_4 = "e-mail";
-$btn_social_4_link = "mailto:luna@42l.fr";
+$btn_social_4_link = "mailto:luna-thom@riseup.net";
 $btn_social_4_icon = "fas fa-at";
 $btn_social_4_color = "rgb(182, 2, 32)";
 
@@ -42,7 +42,7 @@ $btn_social_5_color = "rgb(41, 80, 255)";
 
 // Musique
 $btn_social_6 = "Soundcloud";
-$btn_social_6_link = "https://soundcloud.com/odixiz";
+$btn_social_6_link = "https://soundcloud.com/lchl";
 $btn_social_6_icon = "fab fa-soundcloud";
 $btn_social_6_color = "rgb(248, 104, 8)";
 
@@ -68,7 +68,7 @@ $btn_social_10_icon = "fab fa-500px";
 $btn_social_10_color = "rgb(112, 112, 112)";
 
 $btn_social_11 = "Pixelfed";
-$btn_social_11_link = "https://pixelfed.social/@lunanarch";
+$btn_social_11_link = "https://pixelfed.fr/@luna";
 $btn_social_11_icon = "fas fa-camera-retro";
 $btn_social_11_color = "rgb(167, 96, 4)";
 

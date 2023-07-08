@@ -53,11 +53,11 @@ define("WEBSITE_DEFAULTPAGE", "home"); //Page par défault
 define("WEBSITE_TITLE", "Luna Narchy"); //Titre du site
 define("WEBSITE_NAME", "Luna Narchy"); //Nom du site
 define("WEBSITE_ICON", "assets/images/logo.png");
-define("WEBSITE_URL", "https://luna.narchy.eu/"); //URL du site
+define("WEBSITE_URL", "https://luna.inakaz.fr/"); //URL du site
 define("WEBSITE_DESCRIPTION", "Salut ! Je fais de l'art et du dev."); // Logo du site
 define("WEBSITE_KEYWORDS", "");
 define("WEBSITE_LANGUAGE", "fr_FR"); //Langue du site
-define("WEBSITE_MAIL", "luna@42l.fr"); //Mail lié au site 
+define("WEBSITE_MAIL", "luna-thom@riseup.net"); //Mail lié au site 
 
 define("WEBSITE_AUTHOR", "Luna"); //Créateur·ice du site
 define("WEBSITE_AUTHOR_LINK", "https://luna.inkz.fr"); //Site ou lien lié à l'auteur·ice / dev du site
