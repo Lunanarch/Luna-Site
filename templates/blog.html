@@ -29,9 +29,10 @@
         {% for page in paginator.pages %}
         {% set class_card_body = "" %}
         <div class="grid-item">
-          <div class="card mb-3">
-            <div class="card-image">
-              <figure class="image is-16by9">
+          <div class="card card-trans mb-3">
+            <center>
+              <div class="card-image">
+              <figure class="image blog-image">
                 {% if page.extra.image.visible_in_section %}
                 {% set class_card_body = "col-xl-8 ps-xl-2" %}
                     <img
@@ -41,7 +42,8 @@
               {% endif %}
               </figure>
             </div>
-
+          </center>
+  
             <div class="card-content">
               <div class="media">
 

@@ -4376,10 +4376,10 @@ a.tag:hover {
 }
 
 .card {
-    background-color: rgba(27, 27, 27, 0.315);
+    background-color: black;
     border-radius: .25rem;
     box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
-    color: white;
+    color: whitesmoke;
     max-width: 100%;
     position: relative
 }
@@ -5779,7 +5779,7 @@ body.has-navbar-fixed-bottom,html.has-navbar-fixed-bottom {
     }
 
     .navbar-menu {
-        background-color: rgb(17, 17, 17);
+        background-color: rgb(17, 17, 17) !important;
         box-shadow: 0 8px 16px rgba(10,10,10,.1);
         padding: .5rem 0
     }

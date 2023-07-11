@@ -10548,3 +10548,15 @@ main.blog{
   padding: 20px;
   text-align: center;
 }
+
+.card-trans{
+    background-color: rgba(27, 27, 27, 0.315) !important;
+}
+
+.card-blog{
+  max-height: 100px;
+}
+
+.blog-image{
+  width: 50%;
+}
