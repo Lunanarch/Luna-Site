@@ -7,7 +7,7 @@ description = "Série de science fiction dystopique d'anticipation utilisant de 
 projets = ["Série", "Audiovisuel", "Livre"]
 
 [extra]
-    image = { path = "/assets/images/projects/pizza-time.png", alt = "Hola, mundo!", visible_in_page = true, visible_in_section = true }
+    image = { path = "/images/projects/pizza-time.png", alt = "Hola, mundo!", visible_in_page = true, visible_in_section = true }
     author = ["Luna", "Lylou-Ann", "Medhi", "Maria-Sathya", "Mathys", "Lycée Expérimental de Saint-Nazaire"]
 
 +++

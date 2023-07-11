@@ -7,7 +7,7 @@ description = "test"
 projets = ["Dev", "Hébergement", "Open-source"]
 
 [extra]
-    image = { path = "/assets/images/projects/inakaz.png", alt = "Hola, mundo!", visible_in_page = true, visible_in_section = true }
+    image = { path = "/images/projects/inakaz.png", alt = "Hola, mundo!", visible_in_page = true, visible_in_section = true }
     author = "Luna"
 
 +++

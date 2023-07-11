@@ -8,7 +8,7 @@ categories = ["Ressources", "Neurodiversité"]
 tags = ["Autisme", "Indicateurs de ton", "Tone indicators"]
 
 [extra]
-    image = { path = "/assets/images/blog/neurodiv.png", alt = "Hola, mundo!", visible_in_page = true, visible_in_section = true }
+    image = { path = "/images/blog/neurodiv.png", alt = "Hola, mundo!", visible_in_page = true, visible_in_section = true }
     author = ["ChatGPT 3.5", "Luna"]
 
 +++

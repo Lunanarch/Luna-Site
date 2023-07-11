@@ -30,7 +30,7 @@ hard_link_static = false
     author = "Luna"
 
     # Use a square image (same height as width)
-    avatar = "assets/images/avatar.png"
+    avatar = "images/avatar.png"
 
     # To use a favicon convert your image to https://realfavicongenerator.net/,
     # then download and copy the package to static/images/favicon
