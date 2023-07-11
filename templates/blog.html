@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% import "macros/utilities/pagination.html" as pagination %}
+{% import "macros/utilities/posts.html" as posts %}
+
+{%- block title -%}
+  {{ section.title | safe }} - {{ config.title | safe }}
+{%- endblock title -%}
+
+
+{%- block head -%}
+  {{ head::head(page = section) }}
+{%- endblock head -%}
+
+
+{%- block header -%}
+  {{ header::header(page = section, type = "section") }}
+{%- endblock header -%}
+
+
+{%- block content -%}
+  <main class="container">
+    
+    <p>  <a href="/categories" class="btn btn-taxonomy m-2 border text-decoration-none">Categories</a>
+    </p>
+
+
+
+      <div class="grid-container">
+        {% for page in paginator.pages %}
+        {% set class_card_body = "" %}
+        <div class="grid-item">
+          <div class="card mb-3">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                {% if page.extra.image.visible_in_section %}
+                {% set class_card_body = "col-xl-8 ps-xl-2" %}
+                    <img
+                    src="{{ get_url(path = page.extra.image.path) | safe }}"
+                    alt="{{ page.extra.image.alt | safe }}"
+                  >
+              {% endif %}
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="media">
+
+                <div class="media-content">
+                  <a
+                  href="{{ page.permalink | safe }}"
+                  class="text-decoration-none"
+                >
+                  <p class="title is-4">{{ page.title | safe }} </p></a>
+                  <p class="subtitle is-6">@{{ page.extra.author | safe }}</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                {{ page.description | safe }}
+                <br>
+                <time datetime="{{ page.date | safe }}">
+                  <a 
+                    href="#" data-bs-toggle="tooltip"
+                    data-bs-title="{{ page.date | date(format='%A, %B %d, %Y %r %Z') | safe }}"
+                    class="text-muted text-decoration-none"
+                  >
+                    {{ page.date | date(format="%B %d, %Y") | safe }}
+                  </a>
+                </time>
+              </div>
+            </div>
+
+            <footer class="card-footer">
+              {% if page.taxonomies.categories %}
+              <div class="row my-1">
+                <div class="col-auto">
+                  <span class="bi bi-bookmarks fs-6 me-1"></span>
+                  {{ posts::categories_btn(categories = page.taxonomies.categories) }}
+                </div>
+              </div>
+            {% endif %}
+            {% if page.taxonomies.tags %}
+              <div class="row mt-1 mb-3">
+                <div class="col-auto">
+                  <span class="bi bi-tags fs-6 me-1"></span>
+                  {{ posts::tags_btn(tags = page.taxonomies.tags) }}
+                </div>
+              </div>
+            {% endif %}
+            </footer>
+
+          </div>
+
+          </div>
+          {% endfor %}
+        </div>
+  </main>
+  <div class="mt-auto">
+    {{ pagination::pagination(paginator = paginator) }}
+  </div>
+{%- endblock content -%}
