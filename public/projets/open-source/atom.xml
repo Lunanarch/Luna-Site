@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title>Luna - Open-source</title>
+    <subtitle>Moi, c&#x27;est Luna (elle). Je vis en Bretagne et j&#x27;étudie de Saint-Nazaire.</subtitle>
+    <link href="https://luna.inakaz.fr/projets/open-source/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://luna.inakaz.fr/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-07-09T23:22:00-05:00</updated>
+    <id>https://luna.inakaz.fr/projets/open-source/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Inakaz</title>
+        <published>2023-07-09T23:22:00-05:00</published>
+        <updated>2023-07-09T23:22:00-05:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://luna.inakaz.fr/projects/inakaz/" type="text/html"/>
+        <id>https://luna.inakaz.fr/projects/inakaz/</id>
+        
+        <content type="html">&lt;h1 id=&quot;kesako&quot;&gt;Késako ?&lt;&#x2F;h1&gt;
+&lt;p&gt;Inakaz est un hébergeur &lt;strong&gt;alternatif, transparent, ouvert, neutre et solidaire&lt;&#x2F;strong&gt; visant à proposer des &lt;strong&gt;services en accès libre&lt;&#x2F;strong&gt; (pad, calc, mindmap, etc...), ainsi que des &lt;strong&gt;services pour les personnes morales ou militant·e·s&lt;&#x2F;strong&gt; (site web statique, blog, mail). &lt;strong&gt;Nous ne faisons pas parti du collectif C.H.A.T.O.N.S&lt;&#x2F;strong&gt; mais nous &lt;strong&gt;engageons à respecter leur &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.chatons.org&#x2F;charte&quot;&gt;charte&lt;&#x2F;a&gt;&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; ainsi que leur &lt;strong&gt;&lt;a href=&quot;&quot;&gt;manifeste&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; et comptons &lt;strong&gt;déposer candidature&lt;&#x2F;strong&gt; lorsque nos services serons parfaitement &lt;strong&gt;stables et sécurisés&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet.&lt;&#x2F;p&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;inakaz.fr&#x2F;&quot; target=&quot;_blank&quot;&gt;
+&lt;button name=&quot;button&quot; class=&quot;button is-link&quot;&gt;Site internet de Inakaz&lt;&#x2F;button&gt;
+&lt;&#x2F;a&gt;</content>
+        
+    </entry>
+</feed>
