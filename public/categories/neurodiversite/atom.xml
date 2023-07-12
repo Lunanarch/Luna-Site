@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
     <title>Luna - Neurodiversité</title>
-    <subtitle>Moi, c&#x27;est Luna (elle). Je vis en Bretagne et j&#x27;étudie de Saint-Nazaire.</subtitle>
+    <subtitle>Moi, c&#x27;est Luna (elle). Je vis en Bretagne et j&#x27;étudie au Lycée Expérimental de Saint-Nazaire. Je fais de la photographie, de la musique, du développement informatique, et je milite dans différents domaines.</subtitle>
     <link href="https://luna.inakaz.fr/categories/neurodiversite/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://luna.inakaz.fr/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>

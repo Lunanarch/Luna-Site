@@ -71,7 +71,7 @@ hard_link_static = false
 [languages]
     [languages.fr]
         title = "Luna"
-        description = "Moi, c'est Luna (elle). Je vis en Bretagne et j'étudie de Saint-Nazaire."
+        description = "Moi, c'est Luna (elle). Je vis en Bretagne et j'étudie au Lycée Expérimental de Saint-Nazaire. Je fais de la photographie, de la musique, du développement informatique, et je milite dans différents domaines."
         generate_feed = true
         feed_filename = "atom.xml"
         taxonomies = [
