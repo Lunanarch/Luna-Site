@@ -19,3 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
   });
+
+// Sélectionnez votre élément de navigation
+var navbar = document.querySelector('.navbar');
+
+// Récupérez la position de défilement à laquelle vous souhaitez changer de style
+var scrollPosition = 50;
+
+// Ajoutez un écouteur d'événement de défilement
+window.addEventListener('scroll', function() {
+  // Obtenez la position de défilement actuelle
+  var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  // Vérifiez si la position de défilement actuelle dépasse la position définie
+  if (currentScroll > scrollPosition) {
+    // Ajoutez la classe CSS pour changer de style
+    navbar.classList.add('scrolled');
+  } else {
+    // Supprimez la classe CSS si la position de défilement est inférieure à la position définie
+    navbar.classList.remove('scrolled');
+  }
+});

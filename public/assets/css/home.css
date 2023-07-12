@@ -179,11 +179,18 @@
     }
 
     .hero.is-fullheight {
-        min-height: 93vh;
+        min-height: 94.5vh;
     }
 
     .navbar{
         background: rgba(97, 97, 97, 0) !important;
+        transition: .5s;
+    }
+
+    .scrolled{
+        background: rgba(17, 17, 17, 0.596) !important;
+        transition: .5s;
+
     }
 
 @media (max-width : 850px) {

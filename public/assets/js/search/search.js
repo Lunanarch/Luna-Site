@@ -122,9 +122,9 @@ function makeTeaser(body, terms) {
 }
 
 function formatSearchResultItem(item, terms) {
-  return '<div class="search-results__item my-2 mx-1">'
-  + `<a href="${item.ref}" class="fs-5">${item.doc.title}</a>`
-  + `<div class="mt-2 mb-3">${makeTeaser(item.doc.body, terms)}</div>`
+  return '<div class="search-results__items">'
+  + `<a href="${item.ref}">${item.doc.title}</a>`
+  + `<div>${makeTeaser(item.doc.body, terms)}</div>`
   + '</div>';
 }
 
@@ -169,11 +169,7 @@ function initSearch() {
     }
   }, 150));
 
-  window.addEventListener('click', function(e) {
-    if ($searchResults.style.display == "block" && !$searchResults.contains(e.target)) {
-      $searchResults.style.display = "none";
-    }
-  });
+
 }
 
 
@@ -184,3 +180,4 @@ if (document.readyState === "complete" ||
 } else {
   document.addEventListener("DOMContentLoaded", initSearch);
 }
+

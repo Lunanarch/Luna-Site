@@ -2,7 +2,7 @@
 
 
 {%- macro header(page, type) -%}
-<nav class="navbar is-dark">
+<nav class="navbar is-dark is-fixed-top">
   <div class="navbar-brand">
     <div class="navbar-burger" data-target="navbarExampleTransparentExample">
       <span></span>
@@ -22,12 +22,12 @@
       <a class="navbar-item" href="/projects">
       <img src="/assets/svg/mutant/objects/office_stationery/package.svg" alt="Carton" class="emoji-24">&nbspProjets
       </a>
-      <a class="navbar-item" href="/musics">
+      <!-- <a class="navbar-item" href="/musics">
       <img src="/assets/svg/mutant/symbols/textual/music_note.svg" alt="Notes de musique" class="emoji-24">&nbspMusiques
       </a>
       <a class="navbar-item" href="/photos">
       <img src="/assets/svg/mutant/nature_effects/weather/rainbow.svg" alt="Arcenciel" class="emoji-24">&nbspPhotos
-      </a>
+      </a> -->
       <a class="navbar-item" href="/about">
       <img src="/assets/svg/mutant/objects/office_stationery/page.svg" alt="Page" class="emoji-24">&nbspA propos
       </a>
@@ -60,5 +60,6 @@
 </nav>
 
 <script src="/assets/js/bulma/nav.js"></script>
+
 {%- endmacro header -%}
 

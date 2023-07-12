@@ -16,7 +16,7 @@
     <link rel="mask-icon" href="https://luna.inakaz.fr/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff"></head>
-<body><nav class="navbar is-dark">
+<body class="has-navbar-fixed-top"><nav class="navbar is-dark is-fixed-top">
   <div class="navbar-brand">
     <div class="navbar-burger" data-target="navbarExampleTransparentExample">
       <span></span>
@@ -36,12 +36,12 @@
       <a class="navbar-item" href="/projects">
       <img src="/assets/svg/mutant/objects/office_stationery/package.svg" alt="Carton" class="emoji-24">&nbspProjets
       </a>
-      <a class="navbar-item" href="/musics">
+      <!-- <a class="navbar-item" href="/musics">
       <img src="/assets/svg/mutant/symbols/textual/music_note.svg" alt="Notes de musique" class="emoji-24">&nbspMusiques
       </a>
       <a class="navbar-item" href="/photos">
       <img src="/assets/svg/mutant/nature_effects/weather/rainbow.svg" alt="Arcenciel" class="emoji-24">&nbspPhotos
-      </a>
+      </a> -->
       <a class="navbar-item" href="/about">
       <img src="/assets/svg/mutant/objects/office_stationery/page.svg" alt="Page" class="emoji-24">&nbspA propos
       </a>
@@ -188,9 +188,9 @@
           <div class="column">
             <p>
               <ul>
-                <li><i class="fa-solid fa-envelope"></i>&nbsp<a href="mailto:luna@narchy.art">luna[at]narchy.art</a></li>
-                <li><i class="fa-brands fa-mastodon"></i>&nbsp<a href="https://eldritch.cafe/@chasociale">Mastodon</a></li>
-                <li><i class="fa-brands fa-telegram"></i>&nbsp<a href="">Telegram</a></li>
+                <li><i class="fa-solid fa-envelope"></i>&nbsp<a href="mailto:luna@kaz.bzh">luna[at]kaz.bzh</a></li>
+                <li><i class="fa-brands fa-mastodon"></i>&nbsp<a href="https://todon.eu/@chasociale" target="_blank">Mastodon</a></li>
+                <li><i class="fa-brands fa-telegram"></i>&nbsp<a href="" target="_blank">Telegram</a></li>
               </ul>
           </p>
           </div>
@@ -210,9 +210,9 @@
         <div class="column">
           <p>
             <ul>
-              <li><i class="fa-brands fa-soundcloud"></i>&nbsp<a href="https://soundcloud.com/odixiz">Soundcloud</a></li>
-              <li><i class="fa-brands fa-bandcamp"></i>&nbsp<a href="https://odixiz.bandcamp.com/">Bandcamp</a></li>
-              <li><i class="fa-brands fa-spotify"></i>&nbsp<a href="">Spotify</a></li>
+              <li><i class="fa-brands fa-soundcloud"></i>&nbsp<a href="https://soundcloud.com/lchl" target="_blank">Soundcloud</a></li>
+              <li><i class="fa-brands fa-bandcamp"></i>&nbsp<a href="https://lchl.bandcamp.com/" target="_blank">Bandcamp</a></li>
+              <li><i class="fa-brands fa-spotify"></i>&nbsp<a href="" target="_blank">Spotify</a></li>
             </ul>
           </p>
         </div>
@@ -232,10 +232,10 @@
         <div class="column">
           <p>
             <ul>
-              <li><i class="fa-brands fa-instagram"></i>&nbsp<a href="https://instagram.com/lunanarch">Instagram</a></li>
-              <li><i class="fa-brands fa-flickr"></i>&nbsp<a href="">Flickr</a></li>
-              <li><i class="fa-brands fa-500px"></i>&nbsp<a href="">500px</a></li>
-              <li><i class="fa-solid fa-image"></i>&nbsp<a href="https://pixelfed.social/@lunanarch">Pixelfed</a></li>
+              <li><i class="fa-brands fa-instagram"></i>&nbsp<a href="https://instagram.com/lunanarch" target="_blank">Instagram</a></li>
+              <li><i class="fa-brands fa-flickr"></i>&nbsp<a href="" target="_blank">Flickr</a></li>
+              <li><i class="fa-brands fa-500px"></i>&nbsp<a href="" target="_blank">500px</a></li>
+              <li><i class="fa-solid fa-image"></i>&nbsp<a href="https://pixelfed.fr/@luna" target="_blank">Pixelfed</a></li>
             </ul>
           </p>
         </div>
@@ -255,7 +255,7 @@
         <div class="column">
           <p>
             <ul>
-              <li><i class="fa-brands fa-github"></i>&nbsp<a href="">Github</a></li>
+              <li><i class="fa-brands fa-github"></i>&nbsp<a href="https://github.com/lunanarch" target="_blank">Github</a></li>
             </ul>
           </p>
         </div>
@@ -269,8 +269,8 @@
           <small>
           ©&thinsp; 2023 Luna&period;
                   </br>
-                  Développé avec <img src="/assets/svg/mutant/symbols/hearts/red_heart.svg" alt="Coeur rouge" class="emoji-16 emoji-bottom"> par <a href="/" class="deco">Luna&period;</a>.
-                  <a href="https://github.com/ODXZ/Odixiz" class="deco">Source</a>.
+                  Développé avec <img src="/assets/svg/mutant/symbols/hearts/red_heart.svg" alt="Coeur rouge" class="emoji-16 emoji-bottom"> par <a href="/" class="deco">Luna&period;</a>
+                  <a href="https://github.com/lunanarch/Luna-Site" target="_blank" class="deco">Source</a>.
                   <br>
                   Hébergé par <a href="https://inakaz.fr/" class="deco">Inakaz</a>.
                   <br>
@@ -297,13 +297,10 @@
         >
           <input
             id="search" type="search"
-            class="form-control border border-0 rounded-5 rounded-end"
+            class="form-control border border-0 rounded-5 rounded-end input is-link"
             placeholder="Rechercher"
             aria-label="Rechercher"
           >
-          <div class="rounded-5 rounded-start py-2 ps-2 pe-3">
-            <span class="bi bi-search"></span>
-          </div>
         </div>
         <div class="search-results">
           <div class="search-results__items">
