@@ -2,6 +2,8 @@
 
 
 {%- macro header(page, type) -%}
+<!-- header.html -->
+
 <nav class="navbar is-dark is-fixed-top">
   <div class="navbar-brand">
     <div class="navbar-burger" data-target="navbarExampleTransparentExample">
@@ -14,22 +16,22 @@
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item" href="/">
-      🏠&nbspAccueil
+      🏠&nbsp;{{ trans(key="home", lang=lang) | safe }}
       </a>
- <a class="navbar-item" href="/blog">
-      <img src="/assets/svg/mutant/objects/office_stationery/pencil.svg" alt="Crayon" class="emoji-24">&nbspBlog
+      <a class="navbar-item" href="/blog">
+      <img src="/assets/svg/mutant/objects/office_stationery/pencil.svg" alt="Crayon" class="emoji-24">&nbsp;{{ trans(key="blog", lang=lang) | safe }}
       </a>
       <a class="navbar-item" href="/projects">
-      <img src="/assets/svg/mutant/objects/office_stationery/package.svg" alt="Carton" class="emoji-24">&nbspProjets
+      <img src="/assets/svg/mutant/objects/office_stationery/package.svg" alt="Carton" class="emoji-24">&nbsp;{{ trans(key="projects", lang=lang) | safe }}
       </a>
       <!-- <a class="navbar-item" href="/musics">
-      <img src="/assets/svg/mutant/symbols/textual/music_note.svg" alt="Notes de musique" class="emoji-24">&nbspMusiques
+      <img src="/assets/svg/mutant/symbols/textual/music_note.svg" alt="Notes de musique" class="emoji-24">&nbsp;{{ trans(key="musics", lang=lang) | safe }}
       </a>
       <a class="navbar-item" href="/photos">
-      <img src="/assets/svg/mutant/nature_effects/weather/rainbow.svg" alt="Arcenciel" class="emoji-24">&nbspPhotos
+      <img src="/assets/svg/mutant/nature_effects/weather/rainbow.svg" alt="Arcenciel" class="emoji-24">&nbsp;{{ trans(key="photos", lang=lang) | safe }}
       </a> -->
       <a class="navbar-item" href="/about">
-      <img src="/assets/svg/mutant/objects/office_stationery/page.svg" alt="Page" class="emoji-24">&nbspA propos
+      <img src="/assets/svg/mutant/objects/office_stationery/page.svg" alt="Page" class="emoji-24">&nbsp;{{ trans(key="about", lang=lang) | safe }}
       </a>
     </div>
 
@@ -42,17 +44,17 @@
               <img src="/assets/svg/mutant/objects/office_stationery/email.svg" alt="Emoji mail" class="emoji-16">
               </span>
               <span>
-                Contact
+                {{ trans(key="contactnav", lang=lang) | safe }}
               </span>
             </a>
           </p>
           <p class="control">
-          <a class="button donate" href="https://fr.liberapay.com/Luna-Narchy/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-
+            <a class="button donate" href="https://fr.liberapay.com/Luna-Narchy/donate">
+              <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
+            </a>
           </p>
-
+          
           {{ search::search_btn() }}
-
         </div>
       </div>
     </div>

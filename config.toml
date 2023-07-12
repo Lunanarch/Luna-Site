@@ -87,13 +87,14 @@ hard_link_static = false
         feed_filename = "atom.xml"
         taxonomies = [
             { name = "tags", feed = true, paginate_by = 5  },
-            { name = "categories", feed = true, paginate_by = 5 }
+            { name = "categories", feed = true, paginate_by = 5 },
+            { name = "projets", feed = true, paginate_by = 5 }
         ]
 
 
     [languages.fr.translations]
         post = "Posté"
-        category = "Categorie"
+        category = "Catégorie"
         tag = "Tag"
         search = "Rechercher"
 
@@ -105,42 +106,69 @@ hard_link_static = false
         categories = "Catégories"
         tags = "Tags"
         share = "Partager"
-        
+        contact = "Contactez-moi"
+
         next = "Suivant"
         previous = "Précédent"
 
-        short_copyright = "Some rights reserved."
-        full_copyright = """\
-            Except where otherwise noted, the blog posts on this site are \
-            licensed under the Creative Commons Attribution 4.0 International \
-            (CC BY 4.0) License by the author.\
-            """
+        contact_inquiries = "N'hésitez pas à me contacter si vous avez des questions concernant mes centres d'intérêt ou les valeurs que je défends (ressources, informations, aide pour le développement de sites web, etc.)."
+        email = "luna[at]kaz.bzh"
+        listen_music = "Écoutez ma musique"
+        music_description = "Je crée principalement de la musique électronique avec des éléments de rock, de punk ou expérimentaux. N'hésitez pas à l'écouter."
+        view_photos = "Consultez mes photos"
+        photos_description = "Je prends des photos de paysages et d'astrophotographie. Jetez-y un coup d'œil."
+        other = "Autres"
+        other_links_description = "Autres liens utiles"
+        developed_with = "Développé avec"
+        source = "Code source"
+        hosted_by = "Hébergé par"
+
+        home = "Accueil"
+        blog = "Blog"
+        projects = "Projets"
+        musics = "Musiques"
+        photos = "Photos"
+        about = "A propos"
+        contactnav = "Contact"
 
     [languages.en.translations]
-        post = "Entrada"
-        category = "Categoría"
-        tag = "Etiqueta"
-        search = "Buscar"
+        post = "Post"
+        category = "Category"
+        tag = "Tag"
+        search = "Search"
 
-        404_message = "Página no encontrada"
+        404_message = "Page not found"
 
-        by = "Por"
-        posted = "Publicado"
-        updated = "Actualizado"
-        categories = "Categorías"
-        tags = "Etiquetas"
-        share = "Compartir"
-        
-        next = "Siguiente"
-        previous = "Anterior"
-        
-        short_copyright = "Algunos derechos reservados."
-        full_copyright = """\
-            Salvo que se indique explícitamente, las entradas de este blog \
-            están licenciadas bajo la Creative Commons Attribution 4.0 \
-            International (CC BY 4.0) License por el autor.\
-            """
+        by = "By"
+        posted = "Posted"
+        updated = "Updated"
+        categories = "Categories"
+        tags = "Tags"
+        share = "Share"
+        contact = "Contact Me"
 
+        next = "Next"
+        previous = "Previous"
+
+        contact_inquiries = "Feel free to contact me if you have any inquiries regarding my interests or the values I stand for (resources, information, help with website development, etc.)."
+        email = "luna[at]kaz.bzh"
+        listen_music = "Listen to My Music"
+        music_description = "I mainly make electronic music with elements of rock, punk, or experimental. Feel free to give it a listen."
+        view_photos = "View My Photos"
+        photos_description = "I take photos of landscapes and astrophotography. Take a look."
+        other = "Other"
+        other_links_description = "Other useful links"
+        developed_with = "Developed with"
+        source = "Source"
+        hosted_by = "Hosted by"
+
+        home = "Home"
+        blog = "Blog"
+        musics = "Musics"
+        photos = "Photos"
+        projects = "Projects"
+        about = "About"
+        contactnav = "Contact"
 
 [markdown]
     highlight_code = true

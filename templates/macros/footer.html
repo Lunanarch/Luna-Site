@@ -1,117 +1,101 @@
 <!-- mx-2 mx-sm-5 -->
 
 {%- macro footer() -%}
-
 <!-- Footer -->
 
 <footer>
-
-    <section class="hero contact-hero" id="contact">
+  <section class="hero contact-hero" id="contact">
       <div class="hero-body">
-    
-        <div class="columns">
-    
-          <div class="column">
-            <p class="title-contact title"><img src="/assets/svg/mutant/symbols/sound/speech_bubble.svg" alt="Bulle de texte" class="emoji-32 emoji-bottom"> Me contacter
-            </p>
-            <p class="subtitle-contact subtitle">
-            N'hésite pas à me contacter si tu as une demande au sujet d'un de mes centres d'intérêt ou des valeurs que je défends (ressources, informations, aide pour dev un site web, etc...).
-            </p>
+
+          <div class="columns">
+
+              <div class="column">
+                  <p class="title-contact title"><img src="/assets/svg/mutant/symbols/sound/speech_bubble.svg" alt="Speech Bubble" class="emoji-32 emoji-bottom"> {{ trans(key="contact", lang=lang) | safe }}</p>
+                  <p class="subtitle-contact subtitle">{{ trans(key="contact_inquiries", lang=lang) | safe }}</p>
+              </div>
+
+              <div class="column">
+                  <p>
+                      <ul>
+                          <li><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:luna@kaz.bzh">luna[at]kaz.bzh</a></li>
+                          <li><i class="fa-brands fa-mastodon"></i>&nbsp;<a href="https://todon.eu/@chasociale" target="_blank">Mastodon</a></li>
+                          <!--<li><i class="fa-brands fa-telegram"></i>&nbsp;<a href="" target="_blank">Telegram</a></li>-->
+                      </ul>
+                  </p>
+              </div>
+
           </div>
-    
-          <div class="column">
-            <p>
-              <ul>
-                <li><i class="fa-solid fa-envelope"></i>&nbsp<a href="mailto:luna@kaz.bzh">luna[at]kaz.bzh</a></li>
-                <li><i class="fa-brands fa-mastodon"></i>&nbsp<a href="https://todon.eu/@chasociale" target="_blank">Mastodon</a></li>
-                <!--<li><i class="fa-brands fa-telegram"></i>&nbsp<a href="" target="_blank">Telegram</a></li>-->
-              </ul>
-          </p>
+
+          <div class="columns">
+
+              <div class="column">
+                  <p class="title-contact title"><img src="/assets/svg/mutant/symbols/textual/music_note.svg" alt="Music Notes" class="emoji-32 emoji-bottom"> {{ trans(key="listen_music", lang=lang) | safe }}</p>
+                  <p class="subtitle-contact subtitle">{{ trans(key="music_description", lang=lang) | safe }}</p>
+              </div>
+
+              <div class="column">
+                  <p>
+                      <ul>
+                          <li><i class="fa-brands fa-soundcloud"></i>&nbsp;<a href="https://soundcloud.com/lchl" target="_blank">Soundcloud</a></li>
+                          <li><i class="fa-brands fa-bandcamp"></i>&nbsp;<a href="https://lchl.bandcamp.com/" target="_blank">Bandcamp</a></li>
+                          <!--<li><i class="fa-brands fa-spotify"></i>&nbsp;<a href="" target="_blank">Spotify</a></li>-->
+                      </ul>
+                  </p>
+              </div>
+
           </div>
-    
-        </div>
-    
-        <div class="columns">
-    
-        <div class="column">
-          <p class="title-contact title"><img src="/assets/svg/mutant/symbols/textual/music_note.svg" alt="Notes de musique" class="emoji-32 emoji-bottom"> Ecouter mes musiques
-          </p>
-          <p class="subtitle-contact subtitle">
-          Je fais principalement de l'electro en allant un peu sur le rock, le punk, ou l'expérimental. N'hésite pas à écouter.
-          </p>
-        </div>
-    
-        <div class="column">
-          <p>
-            <ul>
-              <li><i class="fa-brands fa-soundcloud"></i>&nbsp<a href="https://soundcloud.com/lchl" target="_blank">Soundcloud</a></li>
-              <li><i class="fa-brands fa-bandcamp"></i>&nbsp<a href="https://lchl.bandcamp.com/" target="_blank">Bandcamp</a></li>
-              <!--<li><i class="fa-brands fa-spotify"></i>&nbsp<a href="" target="_blank">Spotify</a></li>-->
-            </ul>
-          </p>
-        </div>
-    
-        </div>
-    
-        <div class="columns">
-    
-        <div class="column">
-          <p class="title-contact title"><img src="/assets/svg/mutant/travel_places/scenes/sunrise_over_mountains.svg" alt="Paysage" class="emoji-32 emoji-bottom"> Voir mes photos
-          </p>
-          <p class="subtitle-contact subtitle">
-          Je fais des photos de paysages ainsi que de l'astrophotographie. Jettes-y un coup d'oeil.
-          </p>
-        </div>
-    
-        <div class="column">
-          <p>
-            <ul>
-              <li><i class="fa-brands fa-instagram"></i>&nbsp<a href="https://instagram.com/lunanarch" target="_blank">Instagram</a></li>
-              <!--<li><i class="fa-brands fa-flickr"></i>&nbsp<a href="" target="_blank">Flickr</a></li>
-              <li><i class="fa-brands fa-500px"></i>&nbsp<a href="" target="_blank">500px</a></li>-->
-              <li><i class="fa-solid fa-image"></i>&nbsp<a href="https://pixelfed.fr/@luna" target="_blank">Pixelfed</a></li>
-            </ul>
-          </p>
-        </div>
-    
-        </div>
-    
-        <div class="columns">
-    
-        <div class="column">
-          <p class="title-contact  title"><img src="/assets/svg/mutant/objects/office_stationery/paperclip.svg" alt="Trombone" class="emoji-32 emoji-bottom"> Autres
-          </p>
-          <p class="subtitle-contact subtitle">
-          D'autres liens utiles.
-          </p>
-        </div>
-    
-        <div class="column">
-          <p>
-            <ul>
-              <li><i class="fa-brands fa-github"></i>&nbsp<a href="https://github.com/lunanarch" target="_blank">Github</a></li>
-            </ul>
-          </p>
-        </div>
-    
-        </div>
-    
+
+          <div class="columns">
+
+              <div class="column">
+                  <p class="title-contact title"><img src="/assets/svg/mutant/travel_places/scenes/sunrise_over_mountains.svg" alt="Landscape" class="emoji-32 emoji-bottom"> {{ trans(key="view_photos", lang=lang) | safe }}</p>
+                  <p class="subtitle-contact subtitle">{{ trans(key="photos_description", lang=lang) | safe }}</p>
+              </div>
+
+              <div class="column">
+                  <p>
+                      <ul>
+                          <li><i class="fa-brands fa-instagram"></i>&nbsp;<a href="https://instagram.com/lunanarch" target="_blank">Instagram</a></li>
+                          <!--<li><i class="fa-brands fa-flickr"></i>&nbsp;<a href="" target="_blank">Flickr</a></li>
+                          <li><i class="fa-brands fa-500px"></i>&nbsp;<a href="" target="_blank">500px</a></li>-->
+                          <li><i class="fa-solid fa-image"></i>&nbsp;<a href="https://pixelfed.fr/@luna" target="_blank">Pixelfed</a></li>
+                      </ul>
+                  </p>
+              </div>
+
+          </div>
+
+          <div class="columns">
+
+              <div class="column">
+                  <p class="title-contact  title"><img src="/assets/svg/mutant/objects/office_stationery/paperclip.svg" alt="Paperclip" class="emoji-32 emoji-bottom"> {{ trans(key="other", lang=lang) | safe }}</p>
+                  <p class="subtitle-contact subtitle">{{ trans(key="other_links_description", lang=lang) | safe }}</p>
+              </div>
+
+              <div class="column">
+                  <p>
+                      <ul>
+                          <li><i class="fa-brands fa-github"></i>&nbsp;<a href="https://github.com/lunanarch" target="_blank">Github</a></li>
+                      </ul>
+                  </p>
+              </div>
+
+          </div>
+
       </div>
-    </section>
-    <div class="websitefooter">
+  </section>
+
+  <div class="websitefooter">
       <center>
           <small>
-          ©&thinsp; {{ now() | date(format="%Y") }} {{ config.extra.author | safe }}&period;
-                  </br>
-                  Développé avec <img src="/assets/svg/mutant/symbols/hearts/red_heart.svg" alt="Coeur rouge" class="emoji-16 emoji-bottom"> par <a href="{{ config.extra.social.author_link | safe }}" class="deco">{{ config.extra.author | safe }}&period;</a>
-                  <a href="https://github.com/lunanarch/Luna-Site" target="_blank" class="deco">Source</a>.
-                  <br>
-                  Hébergé par <a href="https://inakaz.fr/" class="deco">Inakaz</a>.
-                  <br>
-  
+              ©&nbsp;{{ now() | date(format="%Y") }} {{ config.extra.author | safe }}.<br>
+              {{ trans(key="developed_with", lang=lang) | safe }} <img src="/assets/svg/mutant/symbols/hearts/red_heart.svg" alt="Red Heart" class="emoji-16 emoji-bottom">
+              {{ trans(key="by", lang=lang) | safe }} <a href="{{ config.extra.social.author_link | safe }}" class="deco">{{ config.extra.author | safe }}</a>.
+              <a href="https://github.com/lunanarch/Luna-Site" target="_blank" class="deco">{{ trans(key="source", lang=lang) | safe }}</a>.<br>
+              {{ trans(key="hosted_by", lang=lang) | safe }} <a href="https://inakaz.fr/" class="deco">Inakaz</a>.
+              <br>
           </small>
-  
       </center>
   </div>
-    </footer>
+</footer>
 {%- endmacro footer -%}
