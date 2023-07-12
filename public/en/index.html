@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nombre del sitio web</title>
+  <title>Luna</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
@@ -20,7 +20,7 @@
         title="RSS" href="https://luna.inakaz.fr/atom.xml"
       ><meta name="author" content="Luna"><meta name="description" content="Home site description." /><meta name="generator" content="Zola">
   <meta property="og:title" content="Home" />
-  <meta property="og:url" content="https://luna.inakaz.fr/en/" /><meta property="og:description" content="Home site description." /><meta property="og:site_name" content="Nombre del sitio web" />
+  <meta property="og:url" content="https://luna.inakaz.fr/en/" /><meta property="og:description" content="Home site description." /><meta property="og:site_name" content="Luna" />
   <meta property="og:locale" content="fr_FR" />
   <meta name="twitter:card" content="summary" />
 
@@ -30,7 +30,71 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> 
   <link rel="stylesheet" href="/assets/css/home.css"></head>
-<body class="has-navbar-fixed-top"><!-- Content-->
+<body class="has-navbar-fixed-top"><!-- header.html -->
+
+<nav class="navbar is-dark is-fixed-top">
+  <div class="navbar-brand">
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/">
+      🏠&nbsp;Home
+      </a>
+      <a class="navbar-item" href="/blog">
+      <img src="/assets/svg/mutant/objects/office_stationery/pencil.svg" alt="Crayon" class="emoji-24">&nbsp;Blog
+      </a>
+      <a class="navbar-item" href="/projects">
+      <img src="/assets/svg/mutant/objects/office_stationery/package.svg" alt="Carton" class="emoji-24">&nbsp;Projects
+      </a>
+      <!-- <a class="navbar-item" href="/musics">
+      <img src="/assets/svg/mutant/symbols/textual/music_note.svg" alt="Notes de musique" class="emoji-24">&nbsp;Musics
+      </a>
+      <a class="navbar-item" href="/photos">
+      <img src="/assets/svg/mutant/nature_effects/weather/rainbow.svg" alt="Arcenciel" class="emoji-24">&nbsp;Photos
+      </a> -->
+      <a class="navbar-item" href="/about">
+      <img src="/assets/svg/mutant/objects/office_stationery/page.svg" alt="Page" class="emoji-24">&nbsp;About
+      </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-link" href="#contact">
+              <span class="icon">
+              <img src="/assets/svg/mutant/objects/office_stationery/email.svg" alt="Emoji mail" class="emoji-16">
+              </span>
+              <span>
+                Contact
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button donate" href="https://fr.liberapay.com/Luna-Narchy/donate">
+              <img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg">
+            </a>
+          </p>
+          
+          <button
+    type="button" data-bs-toggle="modal" data-bs-target="#searchModal"
+    class="btn border border-0"
+  >
+    <span class="bi bi-search fs-5"></span>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script src="/assets/js/bulma/nav.js"></script><!-- Content-->
 
 <body>
 
@@ -135,7 +199,7 @@
         <h1 class="title">Hi <img src="/assets/svg/mutant/expressions/hands/hmn/wave_hmn_y2.svg" alt="Waving Hand" class="emoji-32 emoji-bottom">!</h1>
 
         <p>
-        I'm Luna. I use the pronouns <img src="/assets/svg/mutant/gsr/gsd/flags/demigirl_flag.svg" alt="Demigirl Pride Flag" class="emoji-24 emoji-bottom"> <a href="https://fr.pronouns.page/@odixiz" target="_bank" class="deco">she/they</a>. I live in <img src="/assets/svg/openmoji/1F3F4-E0066-E0072-E0062-E0072-E0065-E007F.svg" alt="Bretagne Flag" class="emoji-24 emoji-bottom"> Bretagne (France) and I study at
+        I'm Luna. I use the pronouns <img src="/assets/svg/mutant/gsr/gsd/flags/demigirl_flag.svg" alt="Demigirl Pride Flag" class="emoji-24 emoji-bottom"> <a href="https://fr.pronouns.page/@odixiz" target="_bank" class="deco">she/they</a>. I live in <img src="/assets/svg/openmoji/1F3F4-E0066-E0072-E0062-E0072-E0065-E007F.svg" alt="Bretagne Flag" class="emoji-24 emoji-bottom"> Brittany (France) and I study at
           <img src="/images/lxp.jpg" class="emoji-24 emoji-bottom" alt="LXP Logo"></img> Lycée Expérimental de Saint-Nazaire. I am a <img src="/assets/svg/mutant/symbols/custom/neurodiversity.svg" alt="Neurodiversity Symbol" class="emoji-24 emoji-bottom"> <strong>neurodivergent</strong> person; please use <strong><a href="/blog/ti" class="deco">tone indicators</a></strong> when communicating with me.
       </p>
 

@@ -81,8 +81,8 @@ hard_link_static = false
         ]
 
     [languages.en]
-        title = "Nombre del sitio web"
-        description = "Descripción del sitio web"
+        title = "Luna"
+        description = "I'm Luna (she). I live in Brittany (France) and i study at Lycée Expérimental de Saint-Nazaire. I'm a photographer, music artist, developer, and Activist."
         generate_feed = true
         feed_filename = "atom.xml"
         taxonomies = [
