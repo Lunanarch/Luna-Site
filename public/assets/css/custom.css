@@ -377,6 +377,11 @@ a {
   background-color: #f1f3f5;
 }
 
+.btn-taxonomy:hover {
+  background-color: #f1f3f5d0;
+  color: rgba(0, 0, 0, 0.801);
+}
+
 /* Modal */
 
 .modal {

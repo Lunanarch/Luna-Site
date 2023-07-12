@@ -52,11 +52,11 @@ hard_link_static = false
     [extra.social]
         author_link = "/"
         links = [
-            { name = "Email", url = "mailto:your-user@email.com", icon = "bi-envelope-fill" },
-            { name = "GitHub", url = "https://github.com/", icon = "bi-github" },
-            { name = "Mastodon", url = "https://twitter.com/", icon = "bi-mastodon" },
-            { name = "Instagram", url = "https://www.linkedin.com/", icon = "bi-instagram" },
-            { name = "Spotify", url = "https://www.facebook.com/", icon = "bi-spotify" },
+            { name = "Email", url = "mailto:luna@kaz.fr", icon = "bi-envelope-fill" },
+            { name = "GitHub", url = "https://github.com/lunanarch", icon = "bi-github" },
+            { name = "Mastodon", url = "https://todon.eu/@chasociale", icon = "bi-mastodon" },
+            { name = "Instagram", url = "https://instagram.com/lunanarch", icon = "bi-instagram" },
+            { name = "Soundcloud", url = "https://soundcloud.com/lchl", icon = "bi-music-note-beamed" },
             { name = "Autres", url = "/#contact", icon = "bi-three-dots" }
         ]
 

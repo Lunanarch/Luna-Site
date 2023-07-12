@@ -17,7 +17,9 @@
         <link rel="alternate" href="https://luna.inakaz.fr/projects/musics/" type="text/html"/>
         <id>https://luna.inakaz.fr/projects/musics/</id>
         
-        <content type="html"></content>
+        <content type="html">&lt;p&gt;Projet musical (très) expérimental. Electro, parfois tek, parfois un peu rock.&lt;&#x2F;p&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;soundcloud.com&#x2F;lchl&quot; target=&quot;_blank&quot;&gt;
+&lt;button name=&quot;button&quot; class=&quot;button is-link&quot;&gt;Ecouter ma musique sur soundcloud&lt;&#x2F;button&gt;</content>
         
     </entry>
 </feed>

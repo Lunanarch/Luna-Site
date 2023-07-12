@@ -6,12 +6,6 @@
   {{ config.title | safe }} - {{ term.name | safe }}
 {%- endblock title -%}
 
-
-{%- block sidebar -%}
-  {{ sidebar::sidebar(type = "section") }}
-{%- endblock sidebar -%}
-
-
 {%- block header -%}
   {{ header::header(page = "null", type = "section") }}
 {%- endblock header -%}
@@ -30,7 +24,7 @@
             class="card card-bg-light mb-4 pb-3 border border-0 border-bottom rounded-0"
           >
             <div class="row g-0">
-              <div class="card-body">
+              <div class="card-content">
                 <a
                   href="{{ page.permalink | safe }}"
                   class="text-decoration-none"
