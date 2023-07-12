@@ -10,10 +10,7 @@ luna[at]kaz.bzh
 
 ### Hébergement
 
-Site hébergé au 
-- 12 rue du haut des paluds
-- 56190, Billier
-- par Inakaz
+Site hébergé par [Inakaz](https://inakaz.fr/)
 
 ### Développement et assets utilisées
 

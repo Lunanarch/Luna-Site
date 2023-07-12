@@ -55,16 +55,6 @@
           
               <div class="content">
                 {{ page.description | safe }}
-                <br>
-                <time datetime="{{ page.date | safe }}">
-                  <a 
-                    href="#" data-bs-toggle="tooltip"
-                    data-bs-title="{{ page.date | date(format='%A, %B %d, %Y %r %Z') | safe }}"
-                    class="text-muted text-decoration-none"
-                  >
-                    {{ page.date | date(format="%B %d, %Y") | safe }}
-                  </a>
-                </time>
               </div>
             </div>
 
